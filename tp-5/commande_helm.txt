@@ -1,0 +1,4 @@
+# Déploiement WordPress
+ helm repo add bitnami https://charts.bitnami.com/bitnami
+helm install wordpress bitnami/wordpress -f https://raw.githubusercontent.com/eazytrainingfr/kubernetes-training/master/tp-5/values.yml
+helm install wordpress bitnami/wordpress -f values.yml
